@@ -1,0 +1,22 @@
+concept_vegetable
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+          [овощ]
+          (*<-lang_ru;;*);
+          [vegetable]
+          (*<-lang_en;;*);
+=> nrel_inclusion:vegetables_cabbage;
+=> nrel_inclusion:vegetables_pumpkin;
+
+=> nrel_inclusion:vegetables_beet;
+=> nrel_inclusion:vegetables_carrot;
+
+=> nrel_inclusion:vegetables_radish;
+=> nrel_inclusion:vegetables_potato;
+
+=> nrel_inclusion:vegetables_cucumber;
+
+=> nrel_inclusion:vegetables_tomato;;
+

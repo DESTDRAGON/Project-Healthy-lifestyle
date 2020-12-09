@@ -1,0 +1,104 @@
+concept_illness_classification=>nrel_main_idtf:[illness classification]
+	(*
+		<-lang_en;;
+	*);;
+concept_illness_classification=>nrel_main_idtf:[классификация болезней]
+	(*
+		<-lang_ru;;
+	*);;
+concept_illness_classification<-rrel_key_sc_element:...
+	(*
+<-definition;;
+=>nrel_main_idtf:[Опр.(классификация болезней)] 
+	(* 
+		<-lang_ru;;
+	*);;
+=>nrel_main_idtf:[Def.(Classification of diseases)] 
+	(* 
+		<-lang_en;;
+	*);;
+<=nrel_sc_text_translation:...
+(*
+		->[Классификация болезней - это разделение различных заболеваний на классы. На данный момент классификация осуществляется в соответствии с международной классификацией болезней (МКБ). Существует 11 пересмотров данной классификации, последний из которых 11-й.]
+(* 
+<-lang_ru;; 
+*);;
+		->[The classification of diseases is the division of various diseases into classes. At the moment, the classification is carried out in accordance with the international classification of diseases (ICD). There are 11 revisions of this classification, the last of which is the 11th.]
+(* 
+<-lang_en;; 
+*);;
+	
+	*);;
+*);;
+
+concept_illness_classification->rrel_key_sc_element:...
+	(*
+		->rrel_key_sc_element:concept_illness_classification;;
+		<-statement;;
+		=>nrel_main_idtf:[Утв.(Международная классификация болезней, 11-й пересмотр (МКБ-11))]
+	(*
+		<-lang_ru;;
+	*);;
+		=>nrel_main_idtf:[Statement (International Classification of Diseases, 11th revision (ICD-11))]
+	(*
+		<-lang_en;;
+	*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:[Международная классификация болезней 11 пересмотра (далее МКБ 11) является стандартной для всего мира методикой сбора данных о смертности и заболеваемости, позволяющая оптимальным методом кодировать и статистически обрабатывать медицинскую информацию. Также она позволяет организовывать процессы управления здравоохранением, перераспределение финансовых и иных ресурсов, оптимизировать научные исследования, собирать и учитывать эпидемиологическую информацию, способствовать улучшению медико-санитарной помощи первичного звена, регулировать вопросы профилактики и лечения, помогая получать представление о ситуации в области здоровья в отдельных странах, различных группах населения, возрастных слоях и т.п. На английском языке используется термин International Classification of Diseases (ICD). ]
+	(*
+		<-lang_ru;; 
+	*);;
+		->rrel_example:[The International Classification of Diseases 11 revision (hereinafter ICD 11) is a worldwide standard for the collection of data on mortality and morbidity, which allows for the best method to encode and statistically process medical information. It also allows organizing health management processes, redistributing financial and other resources, optimizing research, collecting and taking into account epidemiological information, helping to improve primary health care, regulating prevention and treatment issues, helping to get an idea of ​​the health situation in individual countries. , different population groups, age groups, etc. In English, the term International Classification of Diseases (ICD) is used.]
+	(*
+		<-lang_en;; 
+	*);;
+	*);;
+	*);;
+
+concept_illness_classification<-rrel_key_sc_element:...
+	(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+"file://images/ICD-11.png"
+	(*
+		=>nrel_format:format_png;;
+	*);;	
+*);;
+*);;
+concept_illness_classification=>nrel_inclusion:concept_ICD_11_classification;;
+
+concept_ICD_11_classification=>nrel_main_idtf:[Structure of ICD-11 classification]
+	(*
+		<-lang_en;;
+	*);;
+concept_ICD_11_classification<-sc_node_not_relation;
+=>nrel_main_idtf:[Структура классификации по МКБ-11 (ICD-11)]
+	(*
+		<-lang_ru;;
+	*);;
+concept_ICD_11_classification<-sc_node_not_relation;
+<-rrel_key_sc_element:...
+	(*
+		<-explanation;;
+		<=nre_main_idtf:[Утв.(структура МКБ-11)](*<-lang_ru;; *);;
+                <=nre_main_idtf:[Def.(ICD-11 structure)](*<-lang_en;; *);;
+<=nrel_sc_text_translation:
+...
+	(*
+		->rrel_example:
+"file://html/icd_structure_ru.html"
+	(*
+<-lang_ru;;
+		=>nrel_format:format_html;;
+	*);;	
+		->rrel_example:
+"file://html/icd_structure_en.html"
+	(*
+<-lang_en;;
+		=>nrel_format:format_html;;
+	*);;
+*);;
+*);;
